@@ -1,0 +1,337 @@
+baseURL: "https://thejaswini.github.io"
+languageCode: "en-us"
+title: "Thejaswini"
+theme: master
+
+Paginate: 3
+disqusShortname: gurusabarish
+googleAnalytics: G-DWJJVE27WD
+canonifyURLs:  true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+#Menus:
+  #main:
+    #- identifier: blog
+      #name: Blog
+      #title: Blog posts
+      #url: /blogs
+      #weight: 1
+
+    #Dropdown menu
+    #- identifier: dropdown
+      #title: Example dropdown menu
+      #name: Dropdown
+      #weight: 2
+    #- identifier: dropdown1
+      #title: example dropdown 1
+      #name: example 1
+      #url: /#
+      #parent: dropdown
+      #weight: 1
+    #- identifier: dropdown2
+      #title: example dropdown 2
+      #name: example 2
+      #url: /#
+      #parent: dropdown
+      #weight: 2
+
+params:
+  #title: "Hugo Profile"
+  #description: Text about my cool site
+  # staticPath: ""  # The path to serve the static files from
+  #favicon: "/fav.png"
+
+  theme:
+    disableThemeToggle: false
+    defaultTheme: "light" # dark
+    color:  
+        secondaryBackgroundColor: "Blue"
+    #darkmode:
+        #secondaryBackgroundColor: "Blue"
+
+  # font:
+  #   fontSize: 1.5rem # default: 1rem
+  #   fontWeight: 500 # default: 400
+  #   lineHeight: 1 # default: 1.5
+  #   textAlign: right # default: left
+
+  # color preference
+  # color:
+  #     textColor: "black"
+  #     secondaryTextColor: 
+  #     backgroundColor:
+  #     secondaryBackgroundColor:
+  #     primaryColor:
+  #     secondaryColor:
+
+  #   darkmode:
+  #     textColor:
+  #     secondaryTextColor:
+  #     backgroundColor:
+  #     secondaryBackgroundColor:
+  #     primaryColor:
+  #     secondaryColor:
+
+  # If you want to customize the menu, you can change it here
+  navbar:
+      position: absolute
+  #   align: mx-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+  #   brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+  #   brandName: "Profile" # Brand name for the brand | default is the title variable
+
+  #   menus:
+  #     disableAbout: true
+  #     disableExperience: true
+  #     disableEducation: true
+  #     disableProjects: true
+  #     disableAchievements: true
+  #     disableContact: true
+
+  # Hero
+  hero:
+    enable: true
+    intro: "Hi there! I'm "
+    title: "Thejaswini D M"
+    #subtitle: 
+    content: "I am a skilled software engineer and a Computer Science master's student at NYU, with expertise in Java, Python, and AWS. With a proven track record at Amazon, Oracle and Honeywell, I excel in developing scalable applications and innovative solutions."
+    image: "images/me3.jpeg"
+    button:
+      background - color: 
+      enable: true
+      name: "Resume"
+      url: "https://drive.google.com/file/d/1W94hlMeuWe8-NfQtEdeR298SbmF2m0hv/view?usp=sharing"
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/thejaswinidm
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/thejaswinidm/
+        - icon: fab fa-instagram
+          url: https://www.instagram.com/thejaswini_d_m/
+      #customIcons:
+        #- icon: /fav.png
+        #  url: "https://example.com"
+
+  # About
+  about:
+    enable: true
+    title: "I am pursuing a Masters in Computer Science at New York University"
+    image: "/images/me2.jpeg"
+    content: |-
+     I am a skilled software engineer currently pursuing a Master of Science in Computer Science at New York University, with a solid foundation from my Bachelor’s degree at the National Institute of Technology Karnataka.
+     I bring a wealth of experience from my roles at Oracle, where I stabilized business operations of Fortune 500 clients at Oracle.
+     At Honeywell, I automated critical monitoring processes.
+     My technical expertise spans Java, Python, AWS, and a variety of other modern technologies.
+     I am passionate about developing scalable applications and innovative solutions.
+     I am seeking exciting, challenging, and impactful roles where I can leverage my skills to make significant contributions and drive technological advancements.
+     
+    skills:
+      enable: true
+      title: "Skills:"
+      items:
+        - "C++, Java, Python, JavaScript, PHP, SQL, Unix, Git, Jenkings, Devops, Grafana, ReactJs, Prometheus, REST API, Docker, Kubernetes, Kibana, Kafka, Elasticsearch, Ruby, HTML, CSS"
+        - "AWS Lambda, AWS S3, AWS Lex, Ec2, AWS Codepipeline, AWS Cloudformation, AWS Cloudwatch"
+        - "Effective Communication, Leadership, Problem-Solving, Team Player"
+        # - "Python, R Shiny, R, SQL, HTML, CSS, Javascript, Ruby, KQL, SPL, AWS S3, Elasticsearch, Kibana, Logstash, Kafka, Kafka connect, Splunk, AWS Cloudformation, AWS Cloudwatch, APM"
+       
+       
+
+  # Experience
+  experience:
+    enable: true
+    items:
+      - job: "Applications Engineer 2 (IC2)"
+        company: "Oracle"
+        companyUrl: "https://www.oracle.com/"
+        date: "July 2021 - Aug 2023"
+        info:
+          enable: true
+          content: "Location: Bengaluru, India"
+        featuredLink:
+          enable: false
+        content: |
+          Bengaluru, India
+          - Instrumental in the stabilization of one of Oracle’s Fortune 500 customers’ businesses.
+          - Developed a SaaS application - CX Audience by eliminating security issues, increasing the scalability, performance and productivity using JAVA and SQL.
+          - Engineered a production monitoring system utilizing Grafana and Prometheus to visually represent time series data, leading to enhanced data insights and 50% increase in operational efficiency.
+
+      - job: "Software Development Engineering Intern"
+        company: "Honeywell"
+        companyUrl: "https://www.honeywell.com/us/en"
+        date: "June 2020 - July 2020"
+        info:
+          enable: true
+          content: "Location: Hyderabad, India "
+        featuredLink:
+          enable: false
+          url: "https://www.honeywell.com/us/en"
+        content: |
+          Hyderabad, India
+          - Programmed a functionality to monitor and notify operational and mechanical faults transmitted from aircraft traffic with resolution steps leveraging ReactJS, eliminating manual monitoring of 6 hrs daily.
+          - Engineered a user-friendly, streamlined interface to facilitate seamless activation of aircraft connectivity.
+
+      
+      # - job: "Member of the implementation committee"
+      #   company: "Govt. of India (MHRD)"
+      #   companyUrl: "https://www.education.gov.in/"
+      #   date: "Oct 2020 - May 2021"
+      #   info:
+      #     enable: true
+      #     content: "Location: Mangalore, India"
+      #   featuredLink:
+      #     enable: false
+      #     url: "https://www.education.gov.in/"
+      #   info:
+      #     content:
+      #   content: |-
+      #     Mangalore, India
+      #     - Processed and managed 4000+ Under Graduation (UG) and 150+ Post Graduation (PG) applications from students abroad applying to UG and PG programs respectively, encompassing 58 premier institutions in India.
+      #     - Devised seat allotment algorithms for all five rounds and developed the portals for document verification and displaying institute-specific admits PHP, CodeIgnitor, SQL, REST API
+
+      - job: "Member of the implementation committee"
+        company: "Government of India"
+        companyUrl: "https://www.education.gov.in/"
+        date: "March 2019 - August 2019"
+        info:
+          enable: true
+          content: "Location: Mangalore, India"
+        featuredLink:
+          enable: false
+          url: "https://www.education.gov.in/"
+        info:
+          content: 
+        content: |-
+          Mangalore, India
+          - Processed and managed 4000+ Under Graduation (UG) and 150+ Post Graduation (PG) applications from students abroad applying to UG and PG programs respectively, encompassing 58 premier institutions in India.
+          - Devised seat allotment algorithms for all five rounds and developed the portals for document verification and displaying institute-specific admits PHP, CodeIgnitor, SQL, REST API
+
+
+
+
+  # Education
+  education:
+    enable: true
+    # index: true
+    items:
+      - title: "Master of Science in Computer Science"
+        school:
+          name: "New York University"
+          url: "https://engineering.nyu.edu/"
+        date: "2023 - 2025"
+        GPA: "3.84 out of 4.0"
+        content: |-
+            - Course Work: 
+              - Cloud Computing
+              - Big data
+              - Information,security and Privacy
+              - Design and Analysis of algorithms
+              - Operating Systems
+              - Principles of Databases
+
+      - title: "Bachelor of Technology in Information Technology"
+        school:
+          name: "National Institute of Technology Karanataka, Surathkal"
+          url: "https://www.nitk.ac.in/"
+        date: "2017 - 2021"
+        # GPA: "8.1 out of 10"
+        content: |- 
+          - Published a research work at the 3rd International Conference on Machine Intelligence and Signal Processing 2021. 
+
+
+          Extracurricular Activities
+            - Finalist, HackWithInfy Data structures and Algorithms coding competition hosted by Infosys.
+            - Web Developer at Integrated Resource and Information Sharing (IRIS).
+            - Member of the implementation committee of Government of India Project for Direct Admission of Students Abroad
+
+  #featuredLink:
+  #enable: true
+  #name: "My academic record"
+  #url: "https://example.com"
+
+  # Achievements
+  achievements:
+    enable: true
+    items:
+      #- title: Smart India Hackathon 2020
+       # content: Won 2nd place in Smart India Hackathon 2020 for developing a Smart Yoga Instructor with feedback using Deep Learning
+        #url: "https://www.sih.gov.in"
+      - title: HackWithInfy DataStructures and Algorithms Finalist
+        content: I was a Finalist, HackWithInfy Data structures and Algorithms coding competition hosted by Infosys.
+      # - title: Women Entrepreneurship Week Candidate 2020
+      #   content: Was selected to meet a Senior Director from Jio Industries for a discussion about the Smart Yoga Instructor application AIC Incubation Center at IIIT Kottayam.
+      # - title: Elected Cultural Secretary 2019 - 2021
+      #   content: Conducted 15+ events with a footprint of more than 300+ students and Managed a team of 25 students for fundraising and event organization # Conducted events virtually during COVID for effective engagement among new students.
+      #   url: "https://www.iiitkottayam.ac.in/#!/culturalClub"
+      - title: Presented my paper at the 3rd International Conference on Machine Intelligence and Signal Processing 2021. 
+        content: Author of “IPerformance evaluation of deep learning models for word sense disambiguation” at the 3rd International Conference on Machine Intelligence and Signal Processing 2021 (My Bachelor's Major Project)
+
+  # projects
+  projects:
+    enable: true
+    items:
+      - title: Performance evaluation of deep learning models for word sense disambiguation
+        content: Compared CNN, LSTM, bidirectional LSTM, and CNN+LSTM models with trainable and pre-trained GloVe embeddings, utilizing common pre-processing methods and Python. Presented this work at the 3rd International Conference on Machine Intelligence and Signal Processing 2021.
+
+
+        image: /images/projects/Colorization3.png
+        featured:
+          name: Click here to know more!
+          link: https://link.springer.com/chapter/10.1007/978-981-19-0840-8_18
+        # badges:
+        #   - "Hugo"
+        #   - "Bootstrap"
+        #   - "Javascript"
+        # links:
+        #   #- icon: fa fa-envelope
+        #   #  url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+        #   - icon: fab fa-github
+        #     url: https://github.com/Keerthi-Sreenivas/Deep-Learning/blob/main/Gray%20Scale%20Image%20Colorization%20using%20Auto%20Encoders%20(Fruits%20Data%20Set).ipynb
+          # - icon: fab fa-twitter
+          #  url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+
+      - title: Intelligent Photo Album with Natural Language Search
+        content: Developed a web application for intelligent photo album management with natural language search capabilities. Utilized AWS services such as ElasticSearch for indexing, Lambda for serverless functions, S3 for photo 
+        image: /images/projects/doge4.jpeg
+        featured:
+          name: Click here to know more!
+          link: https://github.com/thejaswinidm/SearchPhotos-AI
+        # badges:
+        #   - "Django"
+        #   - "Bootstrap"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/thejaswinidm/SearchPhotos-AI
+
+      # - title: Marketing Insights - Statistics
+      #   content: Digging through data and finding significant insights to advertise better products to customers of different backgrounds.
+      #   image: /images/projects/advert1.jpeg
+      #   featured:
+      #     name: Click here to know more!
+      #     link: https://github.com/Keerthi-Sreenivas/statistics/blob/main/Project.pdf
+      #   # badges:
+      #   #   - "Hugo"
+      #   #   - "Bootstrap"
+      #   #   - "Javascript"
+      #   links:
+      #     - icon: fab fa-github
+      #       url: https://github.com/Keerthi-Sreenivas/statistics/blob/main/Project.pdf
+
+  #Contact
+  contact:
+    enable: true
+    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+    email: td2478@nyu.edu
+    btnName: Mail me
+
+  footer:
+    recentPosts: false
+    socialNetworks:
+      github: https://github.com/thejaswinidm
+      linkedin: https://www.linkedin.com/in/thejaswinidm/
+    # twitter: https://twitter.com
+      instagram: https://www.instagram.com/thejaswini_d_m/
+    # facebook: https://facebook.com
