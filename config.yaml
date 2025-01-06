@@ -110,8 +110,8 @@ params:
           url: https://github.com/thejaswinidm
         - icon: fab fa-linkedin
           url: https://www.linkedin.com/in/thejaswinidm/
-        - icon: fab fa-instagram
-          url: https://www.instagram.com/thejaswini_d_m/
+        # - icon: fab fa-instagram
+        #   url: https://www.instagram.com/thejaswini_d_m/
       #customIcons:
         #- icon: /fav.png
         #  url: "https://example.com"
@@ -327,8 +327,8 @@ params:
   contact:
     enable: true
     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
-    email: td2478@nyu.edu
-    btnName: Mail me
+    email: https://www.linkedin.com/in/thejaswinidm/
+    btnName: Message me
 
   footer:
     recentPosts: false
@@ -336,5 +336,5 @@ params:
       github: https://github.com/thejaswinidm
       linkedin: https://www.linkedin.com/in/thejaswinidm/
     # twitter: https://twitter.com
-      instagram: https://www.instagram.com/thejaswini_d_m/
+      # instagram: https://www.instagram.com/thejaswini_d_m/
     # facebook: https://facebook.com
