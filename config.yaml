@@ -120,15 +120,31 @@ params:
     enable: true
     title: "About me:"
     image: "/images/me2.jpeg"
-    content: |-
-     I am currently an SDE at Amazon Pharmacy, where I work on pricing and offers related to pharmacy services.
-     I hold a Master of Science in Computer Science from NYU and a Bachelor's degree from the National Institute of Technology Karnataka (NITK).
-     I bring a wealth of experience from my roles at Amazon, I designed and developed an API for all drug price calculations and retreival for Insurance Claims at amazon pharmacy.
-     - At Oracle, where I stabilized business operations of Fortune 500 clients at Oracle.
-     - At Honeywell, I automated critical monitoring processes.
-     - My technical expertise spans Java, Python, AWS, and a variety of other modern technologies.
-     I am passionate about developing scalable applications and innovative solutions.
-     I am seeking exciting, challenging, and impactful roles where I can leverage my skills to make significant contributions and drive technological advancements.
+    content: |
+      I am currently an SDE at Amazon Pharmacy, where I work on pricing and offers related to pharmacy services.  
+      I hold a Master of Science in Computer Science from NYU and a Bachelor's degree from the National Institute of Technology Karnataka (NITK).  
+
+      I bring a wealth of experience from my roles at:  
+      - **Amazon:** Designed and developed an API for all drug price calculations and retrieval for Insurance Claims at Amazon Pharmacy.  
+      - **Oracle:** Stabilized business operations for Fortune 500 clients.  
+      - **Honeywell:** Automated critical monitoring processes.  
+
+      With a strong foundation in Java, C++, Python, and cloud technologies, I specialize in designing and optimizing large-scale distributed systems.  
+      My expertise spans microservices architecture, cloud infrastructure, and full-stack development, with deep experience in AWS and Oracle Cloud Infrastructure (OCI).  
+      Leveraging these technologies, I build robust, efficient, and business-critical systems that scale globally.  
+
+      My technical expertise spans Java, Python, AWS, and other modern technologies.  
+      I am passionate about developing scalable applications and innovative solutions.  
+      I am seeking exciting, challenging, and impactful roles where I can leverage my skills to make significant contributions and drive technological advancements.  
+    # content: |-
+    #  I am currently an SDE at Amazon Pharmacy, where I work on pricing and offers related to pharmacy services.
+    #  I hold a Master of Science in Computer Science from NYU and a Bachelor's degree from the National Institute of Technology Karnataka (NITK).
+    #  I bring a wealth of experience from my roles at Amazon, I designed and developed an API for all drug price calculations and retreival for Insurance Claims at amazon pharmacy.
+    #  - At Oracle, where I stabilized business operations of Fortune 500 clients at Oracle.
+    #  - At Honeywell, I automated critical monitoring processes.
+    #  - My technical expertise spans Java, Python, AWS, and a variety of other modern technologies.
+    #  I am passionate about developing scalable applications and innovative solutions.
+    #  I am seeking exciting, challenging, and impactful roles where I can leverage my skills to make significant contributions and drive technological advancements.
      
     skills:
       enable: true
