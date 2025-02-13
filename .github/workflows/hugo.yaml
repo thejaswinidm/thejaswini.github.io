@@ -65,7 +65,7 @@ jobs:
             --baseURL "${{ steps.pages.outputs.base_url }}/"
           ls -la ./public
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v2
         with:
           path: ./public
           name: github-pages
@@ -80,7 +80,7 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4
         with:
           artifact_name: github-pages
           # path: ./public
