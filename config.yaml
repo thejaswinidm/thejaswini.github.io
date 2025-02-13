@@ -121,21 +121,17 @@ params:
     title: "About me:"
     image: "/images/me2.jpeg"
     content: |
-      I am currently an SDE at Amazon Pharmacy, where I work on pricing and offers related to pharmacy services.  
-      I hold a Master of Science in Computer Science from NYU and a Bachelor's degree from the National Institute of Technology Karnataka (NITK).  
+      I am an SDE at Amazon Pharmacy, working on pricing and offers for pharmacy services.  
+      I hold an MS in Computer Science from NYU and a Bachelor's from NITK.  
 
-      I bring a wealth of experience from my roles at:  
-      - **Amazon:** Designed and developed an API for all drug price calculations and retrieval for Insurance Claims at Amazon Pharmacy.  
-      - **Oracle:** Stabilized business operations for Fortune 500 clients.  
-      - **Honeywell:** Automated critical monitoring processes.  
+      Previously, I:  
+      - Built APIs for drug price calculations at Amazon Pharmacy.  
+      - Stabilized Fortune 500 business operations at Oracle.  
+      - Automated critical monitoring at Honeywell.  
 
-      With a strong foundation in Java, C++, Python, and cloud technologies, I specialize in designing and optimizing large-scale distributed systems.  
-      My expertise spans microservices architecture, cloud infrastructure, and full-stack development, with deep experience in AWS and Oracle Cloud Infrastructure (OCI).  
-      Leveraging these technologies, I build robust, efficient, and business-critical systems that scale globally.  
-
-      My technical expertise spans Java, Python, AWS, and other modern technologies.  
-      I am passionate about developing scalable applications and innovative solutions.  
-      I am seeking exciting, challenging, and impactful roles where I can leverage my skills to make significant contributions and drive technological advancements.  
+      With expertise in Java, C++, Python, AWS, and OCI, I specialize in large-scale distributed systems, microservices, and full-stack development.  
+      Passionate about building scalable, high-performance solutions, I thrive on solving complex engineering challenges.  
+      
     # content: |-
     #  I am currently an SDE at Amazon Pharmacy, where I work on pricing and offers related to pharmacy services.
     #  I hold a Master of Science in Computer Science from NYU and a Bachelor's degree from the National Institute of Technology Karnataka (NITK).
