@@ -142,7 +142,7 @@ params:
     skills:
       enable: true
       title: "Skills:"
-      items:
+      items: |
         - "Java, C++, Python, JavaScript, PHP, SQL, Unix, Git, Jenkings, Devops, Grafana, ReactJs, Prometheus, REST API, Docker, Kubernetes, Kibana, Kafka, Elasticsearch, Ruby, HTML, CSS"
         - "AWS Lambda, AWS S3, AWS Lex, Ec2, AWS Codepipeline, AWS Cloudformation, AWS Cloudwatch, CI/CD Pipeline"
         - "Effective Communication, Leadership, Problem-Solving, Team Player"
