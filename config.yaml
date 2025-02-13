@@ -269,8 +269,6 @@ params:
       #- title: Smart India Hackathon 2020
        # content: Won 2nd place in Smart India Hackathon 2020 for developing a Smart Yoga Instructor with feedback using Deep Learning
         #url: "https://www.sih.gov.in"
-      - title: HackWithInfy DataStructures and Algorithms Finalist
-        content: I was a Finalist, HackWithInfy Data structures and Algorithms coding competition hosted by Infosys.
       # - title: Women Entrepreneurship Week Candidate 2020
       #   content: Was selected to meet a Senior Director from Jio Industries for a discussion about the Smart Yoga Instructor application AIC Incubation Center at IIIT Kottayam.
       # - title: Elected Cultural Secretary 2019 - 2021
@@ -280,7 +278,10 @@ params:
         content: Author of “Performance evaluation of deep learning models for word sense disambiguation” at the 3rd International Conference on Machine Intelligence and Signal Processing 2021 (My Bachelor's Major Project)
       - title: Achieved a global ranking of 1131 in Codechef's Data Structures and Algorithms contest 
         content: Participated in a global competitive contest of data structures and algorithms and achieved a rank of 1131 global ranking.
-  # projects
+      - title: HackWithInfy DataStructures and Algorithms Finalist
+        content: I was a Finalist, HackWithInfy Data structures and Algorithms coding competition hosted by Infosys.
+      
+ # projects
   projects:
     enable: true
     items:
