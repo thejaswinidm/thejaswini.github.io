@@ -97,7 +97,7 @@ params:
     intro: "Hi there! I'm "
     title: "Thejaswini D M"
     #subtitle: 
-    content: "I am a skilled software engineer and a Computer Science Master's student at NYU, with expertise in C++, Java, Python, and AWS. With a proven track record at Amazon, Oracle and Honeywell, I excel in developing scalable applications and innovative solutions."
+    content: "I am currently an SDE at Amazon, with 2+ years of experience working at big tech companies like Amazon, Oracle, and Honeywell, where I've built scalable, high-performance systems. With a Master’s in Computer Science from NYU and a Bachelor’s in Information Technology from NITK, a tier-1 institution, I have honed expertise in Java, C++, Python, microservices, cloud services, and AWS. Having delivered impactful solutions, I excel in designing and optimizing systems that scale globally. A relentless problem solver, I thrive in tackling complex engineering challenges, pushing the boundaries of innovation, and driving business-critical outcomes."
     image: "images/me3.jpeg"
     button:
       background - color: 
@@ -118,12 +118,13 @@ params:
   # About
   about:
     enable: true
-    title: "I am pursuing a Masters in Computer Science at New York University"
+    title: "About me:"
     image: "/images/me2.jpeg"
     content: |-
-     I am a skilled software engineer currently pursuing a Master of Science in Computer Science at New York University, with a solid foundation from my Bachelor’s degree at the National Institute of Technology Karnataka.
-     I bring a wealth of experience from my roles at Oracle, where I stabilized business operations of Fortune 500 clients at Oracle.
-     At Amazon, I designed and developed an API for all drug price calculations and retreival for Insurance Claims at amazon pharmacy.
+     I am currently an SDE at Amazon Pharmacy, where I work on pricing and offers related to pharmacy services.
+     I hold a Master of Science in Computer Science from NYU and a Bachelor's degree from the National Institute of Technology Karnataka (NITK).
+     I bring a wealth of experience from my roles at Amazon, I designed and developed an API for all drug price calculations and retreival for Insurance Claims at amazon pharmacy.
+     At Oracle, where I stabilized business operations of Fortune 500 clients at Oracle.
      At Honeywell, I automated critical monitoring processes.
      My technical expertise spans Java, Python, AWS, and a variety of other modern technologies.
      I am passionate about developing scalable applications and innovative solutions.
@@ -133,7 +134,7 @@ params:
       enable: true
       title: "Skills:"
       items:
-        - "C++, Java, Python, JavaScript, PHP, SQL, Unix, Git, Jenkings, Devops, Grafana, ReactJs, Prometheus, REST API, Docker, Kubernetes, Kibana, Kafka, Elasticsearch, Ruby, HTML, CSS"
+        - "Java, C++, Python, JavaScript, PHP, SQL, Unix, Git, Jenkings, Devops, Grafana, ReactJs, Prometheus, REST API, Docker, Kubernetes, Kibana, Kafka, Elasticsearch, Ruby, HTML, CSS"
         - "AWS Lambda, AWS S3, AWS Lex, Ec2, AWS Codepipeline, AWS Cloudformation, AWS Cloudwatch, CI/CD Pipeline"
         - "Effective Communication, Leadership, Problem-Solving, Team Player"
         # - "Python, R Shiny, R, SQL, HTML, CSS, Javascript, Ruby, KQL, SPL, AWS S3, Elasticsearch, Kibana, Logstash, Kafka, Kafka connect, Splunk, AWS Cloudformation, AWS Cloudwatch, APM"
@@ -145,7 +146,7 @@ params:
     enable: true
     items:
 
-      - job: "Software Developement Engineer Intern"
+      - job: "Software Developement Engineer"
         company: "Amazon"
         companyUrl: "https://pharmacy.amazon.com/"
         date: "May 2024 - Aug 2024"
@@ -223,7 +224,7 @@ params:
           name: "New York University"
           url: "https://engineering.nyu.edu/"
         date: "09/2023 - 01/2025"
-        GPA: "3.84 out of 4.0"
+        GPA: "3.83 out of 4.0"
         content: |-
             - Course Work: 
               - Cloud Computing
@@ -268,7 +269,7 @@ params:
       #   content: Conducted 15+ events with a footprint of more than 300+ students and Managed a team of 25 students for fundraising and event organization # Conducted events virtually during COVID for effective engagement among new students.
       #   url: "https://www.iiitkottayam.ac.in/#!/culturalClub"
       - title: Presented my paper at the 3rd International Conference on Machine Intelligence and Signal Processing 2021. 
-        content: Author of “IPerformance evaluation of deep learning models for word sense disambiguation” at the 3rd International Conference on Machine Intelligence and Signal Processing 2021 (My Bachelor's Major Project)
+        content: Author of “Performance evaluation of deep learning models for word sense disambiguation” at the 3rd International Conference on Machine Intelligence and Signal Processing 2021 (My Bachelor's Major Project)
       - title: Achieved a global ranking of 1131 in Codechef's Data Structures and Algorithms contest 
         content: Participated in a global competitive contest of data structures and algorithms and achieved a rank of 1131 global ranking.
   # projects
