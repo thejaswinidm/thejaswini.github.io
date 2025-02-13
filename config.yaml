@@ -110,11 +110,6 @@ params:
           url: https://github.com/thejaswinidm
         - icon: fab fa-linkedin
           url: https://www.linkedin.com/in/thejaswinidm/
-       
-      #customIcons:
-        #- icon: /fav.png
-        #  url: "https://example.com"
-
   # About
   about:
     enable: true
@@ -231,7 +226,7 @@ params:
         school:
           name: "New York University"
           url: "https://engineering.nyu.edu/"
-        date: "09/2023 - 01/2025"
+        date: "09/2023 - 12/2024"
         GPA: "3.83 out of 4.0"
         content: |-
             - Course Work: 
