@@ -99,11 +99,11 @@ params:
     #subtitle: 
     content: "I am currently an SDE at Amazon, with 2+ years of experience working at big tech companies like Amazon, Oracle, and Honeywell, where I've built scalable, high-performance systems. With a Master’s in Computer Science from NYU and a Bachelor’s in Information Technology from NITK, a tier-1 institution, I have honed expertise in Java, C++, Python, microservices, cloud services, and AWS. Having delivered impactful solutions, I excel in designing and optimizing systems that scale globally. A relentless problem solver, I thrive in tackling complex engineering challenges, pushing the boundaries of innovation, and driving business-critical outcomes."
     image: "images/me3.jpeg"
-    button:
-      background - color: 
-      enable: true
-      name: "Resume"
-      url: "https://drive.google.com/file/d/1JQZes_6KwxXs7ZVk_wDyil-sAW8BzQKI/view?usp=sharing"
+    # button:
+    #   background - color: 
+    #   enable: true
+    #   name: "Resume"
+    #   url: "https://drive.google.com/file/d/1JQZes_6KwxXs7ZVk_wDyil-sAW8BzQKI/view?usp=sharing"
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
