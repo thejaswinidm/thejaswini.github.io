@@ -163,7 +163,7 @@ params:
       - job: "Software Developement Engineer"
         company: "Amazon"
         companyUrl: "https://pharmacy.amazon.com/"
-        date: "May 2024 - Aug 2024"
+        # date: "May 2024 - Aug 2024"
         info:
           enable: true
           content: "Location: Seattle, WA, USA"
