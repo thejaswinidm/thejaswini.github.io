@@ -121,17 +121,12 @@ params:
     title: "About me:"
     image: "/images/me2.jpeg"
     content: |
-      I am an SDE at Amazon Pharmacy, working on pricing and offers for pharmacy services.  
+      I am an SDE at Amazon Pharmacy, specializing in pricing and offers for pharmacy services.  
       I hold an MS in Computer Science from NYU and a Bachelor's from NITK.  
 
-      Previously, I:  
-      - Built APIs for drug price calculations at Amazon Pharmacy.  
-      - Stabilized Fortune 500 business operations at Oracle.  
-      - Automated critical monitoring at Honeywell.  
+      With experience at Amazon, Oracle, and Honeywell, I have built scalable, high-performance systems that power global businesses. My expertise spans Java, C++, Python, AWS, OCI, microservices, and full-stack development.  
 
-      With expertise in Java, C++, Python, AWS, and OCI, I specialize in large-scale distributed systems, microservices, and full-stack development.  
-      Passionate about building scalable, high-performance solutions, I thrive on solving complex engineering challenges.  
-
+      Passionate about solving complex engineering challenges, I thrive in designing and optimizing distributed systems that drive impactful solutions.  
 
     # I am seeking exciting, challenging, and impactful roles where I can leverage my skills to make significant contributions and drive technological advancements.  
     # content: |-
