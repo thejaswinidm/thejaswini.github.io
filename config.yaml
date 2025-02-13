@@ -3,7 +3,7 @@ languageCode: "en-us"
 title: "Thejaswini"
 theme: master
 
-Paginate: 3
+Paginate.pagerSize: 3
 disqusShortname: gurusabarish
 googleAnalytics: G-DWJJVE27WD
 canonifyURLs:  true
