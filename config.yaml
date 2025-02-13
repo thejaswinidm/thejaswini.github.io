@@ -97,7 +97,7 @@ params:
     intro: "Hi there! I'm "
     title: "Thejaswini D M"
     #subtitle: 
-    content: "I am currently an SDE at Amazon, with 2+ years of experience working at big tech companies like Amazon, Oracle, and Honeywell, where I've built scalable, high-performance systems. With a Master’s in Computer Science from NYU and a Bachelor’s in Information Technology from NITK, a tier-1 institution, I have honed expertise in Java, C++, Python, microservices, cloud services, and AWS. Having delivered impactful solutions, I excel in designing and optimizing systems that scale globally. A relentless problem solver, I thrive in tackling complex engineering challenges, pushing the boundaries of innovation, and driving business-critical outcomes."
+    content: "I’m an SDE at Amazon with 2+ years of experience at Amazon, Oracle, and Honeywell, building scalable, high-performance systems. With an MSCS from NYU and a BTech from NITK, I specialize in Java, C++, Python, microservices, and cloud platforms like AWS and OCI. I thrive on solving complex engineering challenges and designing systems that scale efficiently."
     image: "images/me3.jpeg"
     # button:
     #   background - color: 
@@ -124,9 +124,9 @@ params:
      I am currently an SDE at Amazon Pharmacy, where I work on pricing and offers related to pharmacy services.
      I hold a Master of Science in Computer Science from NYU and a Bachelor's degree from the National Institute of Technology Karnataka (NITK).
      I bring a wealth of experience from my roles at Amazon, I designed and developed an API for all drug price calculations and retreival for Insurance Claims at amazon pharmacy.
-     At Oracle, where I stabilized business operations of Fortune 500 clients at Oracle.
-     At Honeywell, I automated critical monitoring processes.
-     My technical expertise spans Java, Python, AWS, and a variety of other modern technologies.
+     - At Oracle, where I stabilized business operations of Fortune 500 clients at Oracle.
+     - At Honeywell, I automated critical monitoring processes.
+     - My technical expertise spans Java, Python, AWS, and a variety of other modern technologies.
      I am passionate about developing scalable applications and innovative solutions.
      I am seeking exciting, challenging, and impactful roles where I can leverage my skills to make significant contributions and drive technological advancements.
      
