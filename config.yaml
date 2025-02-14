@@ -47,7 +47,7 @@ params:
 
   theme:
     disableThemeToggle: false
-    defaultTheme: "light" # dark
+    defaultTheme: "dark" # dark
     color:  
         secondaryBackgroundColor: "Blue"
     #darkmode:
@@ -68,13 +68,13 @@ params:
   #     primaryColor:
   #     secondaryColor:
 
-  #   darkmode:
-  #     textColor:
-  #     secondaryTextColor:
-  #     backgroundColor:
-  #     secondaryBackgroundColor:
-  #     primaryColor:
-  #     secondaryColor:
+    # darkmode:
+    #   textColor:
+    #   secondaryTextColor:
+    #   backgroundColor:
+    #   secondaryBackgroundColor:
+    #   primaryColor:
+    #   secondaryColor:
 
   # If you want to customize the menu, you can change it here
   navbar:
@@ -290,18 +290,7 @@ params:
           Processed 50,000 requests daily with low latency, serving insights from 100,000+ interactions.
 
         image: /images/projects/Colorization5.jpg
-        # badges:
-        #   - "Hugo"
-        #   - "Bootstrap"
-        #   - "Javascript"
-        # links:
-        #   #- icon: fa fa-envelope
-        #   #  url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
-        #   - icon: fab fa-github
-        #     url: https://github.com/Keerthi-Sreenivas/Deep-Learning/blob/main/Gray%20Scale%20Image%20Colorization%20using%20Auto%20Encoders%20(Fruits%20Data%20Set).ipynb
-          # - icon: fab fa-twitter
-          #  url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
-
+        
       - title: Intelligent Photo Album with Natural Language Search
         content: Developed a web application for intelligent photo album management with natural language search capabilities. Utilized AWS services such as ElasticSearch for indexing, Lambda for serverless functions, S3 for photo 
         image: /images/projects/doge4.jpeg
