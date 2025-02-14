@@ -97,7 +97,7 @@ params:
     intro: "Hi there! I'm "
     title: "Thejaswini D M"
     #subtitle: 
-    content: "SDE at Amazon with 2+ years of experience at Oracle and Honeywell, specializing in scalable systems, cloud technologies (AWS, OCI), and full-stack development."
+    content: "An SDE at Amazon with 2+ years of experience at Oracle and Honeywell, specializing in scalable systems, cloud technologies (AWS, OCI), and full-stack development."
     image: "images/me3.jpeg"
     # button:
     #   background - color: 
@@ -189,7 +189,7 @@ params:
           enable: true
           content: "Location: Hyderabad, India "
         featuredLink:
-          enable: false
+          enable: true
           url: "https://www.honeywell.com/us/en"
         content: |
           Hyderabad, India
@@ -205,7 +205,7 @@ params:
           enable: true
           content: "Location: Mangalore, India"
         featuredLink:
-          enable: false
+          enable: true
           url: "https://www.education.gov.in/"
         info:
           content: 
@@ -289,7 +289,7 @@ params:
 
           Processed 50,000 requests daily with low latency, serving insights from 100,000+ interactions.
 
-        image: /images/projects/Colorization5.jpg
+        image: /images/projects/Colorization5.png
         
       - title: Intelligent Photo Album with Natural Language Search
         content: Developed a web application for intelligent photo album management with natural language search capabilities. Utilized AWS services such as ElasticSearch for indexing, Lambda for serverless functions, S3 for photo 
