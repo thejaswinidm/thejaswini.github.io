@@ -47,11 +47,11 @@ params:
 
   theme:
     disableThemeToggle: false
-    defaultTheme: "dark" # dark
+    defaultTheme: "light" # dark
     color:  
         secondaryBackgroundColor: "Blue"
-    #darkmode:
-        #secondaryBackgroundColor: "Blue"
+    darkmode:
+        secondaryBackgroundColor: "Blue"
 
   # font:
   #   fontSize: 1.5rem # default: 1rem
@@ -220,7 +220,7 @@ params:
   # Education
   education:
     enable: true
-    # index: true
+    index: true
     items:
       - title: "Master of Science in Computer Science"
         school:
@@ -259,6 +259,7 @@ params:
 
   # Achievements
   achievements:
+
     enable: true
     items:
       #- title: Smart India Hackathon 2020
@@ -272,6 +273,8 @@ params:
       - title: Presented my paper at the 3rd International Conference on Machine Intelligence and Signal Processing 2021. 
         content: Author of “Performance evaluation of deep learning models for word sense disambiguation” at the 3rd International Conference on Machine Intelligence and Signal Processing 2021. This paper was based on my Bachelor's Major Project and is published by Springer.
         url: https://link.springer.com/chapter/10.1007/978-981-19-0840-8_18
+        badges:
+          - "AWS"
         # featured:
         #   name: Click here to know more!
         #   link: https://link.springer.com/chapter/10.1007/978-981-19-0840-8_18
@@ -291,6 +294,10 @@ params:
           Processed 50,000 requests daily with low latency, serving insights from 100,000+ interactions.
 
         image: /images/projects/Colorization5.png
+        badges:
+          - "Kafka"
+          - "MongoDB"
+          - "PySpark"
         
       - title: Intelligent Photo Album with Natural Language Search
         content: Developed a web application for intelligent photo album management with natural language search capabilities. Utilized AWS services such as ElasticSearch for indexing, Lambda for serverless functions, S3 for photo 
@@ -298,9 +305,11 @@ params:
         featured:
           name: Click here to know more!
           link: https://github.com/thejaswinidm/SearchPhotos-AI
-        # badges:
-        #   - "Django"
-        #   - "Bootstrap"
+        badges:
+          - "AWS"
+          - "Rekognition"
+          - "S3"
+          - "EC2"
         links:
           - icon: fab fa-github
             url: https://github.com/thejaswinidm/SearchPhotos-AI
