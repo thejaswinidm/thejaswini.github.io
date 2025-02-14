@@ -273,8 +273,6 @@ params:
       - title: Presented my paper at the 3rd International Conference on Machine Intelligence and Signal Processing 2021. 
         content: Author of “Performance evaluation of deep learning models for word sense disambiguation” at the 3rd International Conference on Machine Intelligence and Signal Processing 2021. This paper was based on my Bachelor's Major Project and is published by Springer.
         url: https://link.springer.com/chapter/10.1007/978-981-19-0840-8_18
-        badges:
-          - "AWS"
         # featured:
         #   name: Click here to know more!
         #   link: https://link.springer.com/chapter/10.1007/978-981-19-0840-8_18
