@@ -97,7 +97,7 @@ params:
     intro: "Hi there! I'm "
     title: "Thejaswini D M"
     #subtitle: 
-    content: "I’m an SDE at Amazon with 2+ years of experience at Amazon, Oracle, and Honeywell, building scalable, high-performance systems. With an MSCS from NYU and a BTech from NITK, I specialize in Java, C++, Python, microservices, and cloud platforms like AWS and OCI. I thrive on solving complex engineering challenges and designing systems that scale efficiently."
+    content: "SDE at Amazon with 2+ years of experience at Oracle and Honeywell, specializing in scalable systems, cloud technologies (AWS, OCI), and full-stack development."
     image: "images/me3.jpeg"
     # button:
     #   background - color: 
@@ -271,6 +271,9 @@ params:
       #   url: "https://www.iiitkottayam.ac.in/#!/culturalClub"
       - title: Presented my paper at the 3rd International Conference on Machine Intelligence and Signal Processing 2021. 
         content: Author of “Performance evaluation of deep learning models for word sense disambiguation” at the 3rd International Conference on Machine Intelligence and Signal Processing 2021. This paper was based on my Bachelor's Major Project and is published by Springer.
+        featured:
+          name: Click here to know more!
+          link: https://link.springer.com/chapter/10.1007/978-981-19-0840-8_18
       - title: Achieved a global ranking of 1131 in Codechef's Data Structures and Algorithms contest 
         content: Participated in a global competitive contest of data structures and algorithms and achieved a rank of 1131 global ranking.
       - title: HackWithInfy DataStructures and Algorithms Finalist
@@ -280,14 +283,13 @@ params:
   projects:
     enable: true
     items:
-      - title: Performance evaluation of deep learning models for word sense disambiguation
-        content: Compared CNN, LSTM, bidirectional LSTM, and CNN+LSTM models with trainable and pre-trained GloVe embeddings, utilizing common pre-processing methods and Python. Presented this work at the 3rd International Conference on Machine Intelligence and Signal Processing 2021.
+      - title: Most Viewed Time Frame Recommendation for YouTube Data
+        content: Built a system to recommend the most engaging time frames for YouTube videos using Kafka for real-time data ingestion, MongoDB for storing video metadata, and PySpark for big data processing and analyzing user engagement trends across
+          different time segments.
 
+          Processed 50,000 requests daily with low latency, serving insights from 100,000+ interactions.
 
-        image: /images/projects/Colorization4.jpg
-        featured:
-          name: Click here to know more!
-          link: https://link.springer.com/chapter/10.1007/978-981-19-0840-8_18
+        image: /images/projects/Colorization5.jpg
         # badges:
         #   - "Hugo"
         #   - "Bootstrap"
